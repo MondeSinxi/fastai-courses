@@ -27,6 +27,11 @@ A lot of the data is hosted on [Kaggle](https://www.kaggle.com). This will proba
 > Kaggle is an online community of data scientists and machine learners, owned by Google LLC. Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges 
 
 Sign up and register to obtain an API token to be able to easily download datasets and publish results for competitions.
+Details of installing Kaggle can be found [here](https://github.com/Kaggle/kaggle-api). Simply 
+
+`pip install kaggle`
+
+In your Kaggle account, create an api token and save the `kaggle.json` file at `~/.kaggle/`
 
 ## Introduction to Random Forests (Bull Book for Bulldozers)
 Create random forrest to create solutions to the [Bull Book for Bulldozers](https://www.kaggle.com/c/bluebook-for-bulldozers) Kaggle competion.
